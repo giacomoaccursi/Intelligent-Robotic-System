@@ -1,4 +1,4 @@
-# Intelligent Robotic System - Lab 1
+# Intelligent Robotic System - Lab 3
 
 ###### Author: Accursi Giacomo
 
