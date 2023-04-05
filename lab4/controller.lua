@@ -51,7 +51,7 @@ function obstacle_avoidance()
     for i = 1, #robot.proximity do 
         length = robot.proximity[i].value
         angle = robot.proximity[i].angle
-        vec[i] = {length = length, angle = (-(angle / angle) * math.pi + angle)}
+        vec[i] = {length = length, angle = (-(math.abs(angle) / angle) * math.pi + angle)}
     end 
     return vec
 end
